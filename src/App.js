@@ -5,12 +5,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+   
+    <BrowserRouter basename="/Port-Gen">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/editor" element={<Editor />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> 
   );
 }
 
