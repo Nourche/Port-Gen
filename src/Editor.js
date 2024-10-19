@@ -8,7 +8,7 @@ function Editor() {
   return (
     <div className="flex flex-col h-screen">
       <nav className="p-4 bg-gray-200">
-        <h1 className="text-xl font-bold">Custom GrapesJS Editor</h1>
+        <h1 className="text-xl font-bold">Our btfl Editor🌗</h1>
       </nav>
       <div className="flex flex-col border border-gray-300 flex-grow h-full">
         <StudioEditor
