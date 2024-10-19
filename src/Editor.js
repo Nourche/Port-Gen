@@ -1,6 +1,7 @@
 import React from 'react';
 import StudioEditor from '@grapesjs/studio-sdk/react';  
-import '@grapesjs/studio-sdk/style';  
+import '@grapesjs/studio-sdk/style'; 
+import { LICENSE_KEY } from './config';
 
 
 function Editor() {
@@ -12,6 +13,7 @@ function Editor() {
       <div className="flex flex-col border border-gray-300 flex-grow h-full">
         <StudioEditor
           options={{
+            licenseKey:LICENSE_KEY,
             project: {
               type: 'web',
               default: {
