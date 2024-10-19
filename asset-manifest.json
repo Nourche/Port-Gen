@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Port-Gen/static/css/main.7571f042.css",
+    "main.js": "/Port-Gen/static/js/main.a33f3db2.js",
+    "index.html": "/Port-Gen/index.html",
+    "main.7571f042.css.map": "/Port-Gen/static/css/main.7571f042.css.map",
+    "main.a33f3db2.js.map": "/Port-Gen/static/js/main.a33f3db2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7571f042.css",
+    "static/js/main.a33f3db2.js"
+  ]
+}
