@@ -13,7 +13,7 @@ function Editor() {
       <div className="flex flex-col border border-gray-300 flex-grow h-full">
         <StudioEditor
           options={{
-            licenseKey:LICENSE_KEY,
+            licenseKey:'1e9dc841f23b4de6b794aa0e0af4d0c49b2f045059524486af5bae7034338031',
             project: {
               type: 'web',
               default: {
